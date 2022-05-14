@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap');
+body{
+	background-image: url("assets/background-image1.png");
+	background-repeat: no-repeat;
+	background-size:  100%;
+	background-position-x: right;
+	background-position-y: top;
+	font-family: 'Nunito Sans', sans-serif;
+}
+
+#logodiv{
+	float: right;
+	padding-right: 10px;
+	size: 100%;
+}
+h1{
+	font-weight: bolder;
+	font-size: 50px;
+	text-shadow: black;
+	padding-bottom: 2px;
+	margin-bottom: 2px;
+}
+h6{
+	margin-top: 2px;
+	padding-top: 2px;
+	font-weight: bolder;
+	font-size: 24px;
+	text-shadow: darkgray;
+	color: gray;
+	margin-bottom: 10px;
+}
+
+#text{
+	padding-left: 30px;
+	clear: right;
+	font-family: 'Nunito Sans', sans-serif;
+
+}
+td{
+	padding: 8px;
+}
+
+#colname{
+	font-weight: bold;
+}
+
+#scorecard{
+	font-size: 20px;
+	background: white;
+	width: 75%;
+}
+
+#tablehead{
+	color:white;
+	background: tomato;
+}
+
+/* change the font family and spacing as per your project font */
+.footer{
+    display:flex;
+    flex-direction: row;
+    align-content: flex-end;
+	position: relative;
+	top: 75px;
+	margin-left: 80px;
+	font-size: 18px;
+	font-family: Nunito Sans;
+    font-style: normal;
+    
+}
